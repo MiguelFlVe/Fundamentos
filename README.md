@@ -2,4 +2,4 @@
 
 ## Actividades de apropiación
 
-Rama de desarrollo
+Rama principal
