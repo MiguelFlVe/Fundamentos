@@ -1,8 +1,10 @@
-// Ejercicio 5 - Conversión de Temperatura
-// Celsius a Fahrenheit: F = (C × 9/5) + 32
+// ============================================
+// EJERCICIO 5 - Conversión de Temperatura
+// ============================================
 
-let celsius = 25;                        // Entrada
-let fahrenheit = (celsius * 9 / 5) + 32;  // Operación
-console.log(fahrenheit);                 // Salida
+let tempCelsius = 25;
+let tempFahrenheit = (tempCelsius * 9 / 5) + 32;
 
-
+console.log("\n=== Ejercicio 5 - Conversión de Temperatura ===");
+console.log("Temperatura en Celsius: " + tempCelsius + " °C");
+console.log("Temperatura en Fahrenheit: " + tempFahrenheit.toFixed(2) + " °F");

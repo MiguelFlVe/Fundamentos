@@ -1,6 +1,10 @@
-// Ejercicio 6 - Perímetro de un Cuadrado
-// Perímetro = lado × 4
+// ============================================
+// EJERCICIO 6 - Perímetro de un Cuadrado
+// ============================================
 
-let lado = 5;               // Entrada
-let perimetro = lado * 4;   // Operación
-console.log(perimetro);     // Salida
+let lado = 5;
+let perimetro = lado * 4;
+
+console.log("\n=== Ejercicio 6 - Perímetro del Cuadrado ===");
+console.log("Lado: " + lado + " unidades");
+console.log("Perímetro: " + perimetro + " unidades");

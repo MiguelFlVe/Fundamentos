@@ -1,6 +1,12 @@
-// Ejercicio 4 - Conversión de Monedas
-// COP a USD (1 USD = 4000 COP)
+// ============================================
+// EJERCICIO 4 - Conversión de Monedas
+// ============================================
 
-let cop = 80000;          // Entrada
-let usd = cop / 4000;     // Operación
-console.log(usd);         // Salida
+let valorCOP = 80000;
+let tasaCambio = 4000;
+let valorDolares = valorCOP / tasaCambio;
+
+console.log("=== Ejercicio 4 - Conversión de Monedas ===");
+console.log("Valor en COP: $" + valorCOP);
+console.log("Tasa de cambio: 1 USD = " + tasaCambio + " COP");
+console.log("Valor en USD: $" + valorDolares.toFixed(2));
