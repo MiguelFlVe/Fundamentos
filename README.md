@@ -2,4 +2,4 @@
 
 ## Actividades de apropiación
 
-Rama principal
+Rama de trabajo de Jesus
